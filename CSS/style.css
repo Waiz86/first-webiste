@@ -1,0 +1,147 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    
+    background: rgb(255, 162, 0);
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-color: rgb(255, 162, 0);}
+    to {background-color: rgb(255, 89, 0);}
+  }
+  a:hover {
+    background: rgba(158, 136, 136, 0.741);
+  }
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    padding: 10px;
+    width: 150px;
+}
+
+.iconsMobile{
+    display: none;
+}
+
+.search{
+    display: flex;
+    background-color: white;
+    width: 35vw;
+    height: 36px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.search input{
+    height: 36px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    padding: 0 16px;
+    border: 0;
+    outline: none;
+}
+
+.btn{
+    border: 0;
+    cursor: pointer;
+    background: transparent;
+    padding: 6px 10px;
+}
+
+.icons{
+    margin: 10px;
+}
+
+.btn img{
+    width: 22px;
+}
+
+#profile img{
+    width: 30px;
+}
+
+#cart img{
+    width: 40px;
+}
+
+.items{
+    margin: 10px;
+    width: 48.2%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #272727;
+}
+
+
+.images{
+    width: 100%;
+}
+
+.buttons{
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    color: #ba4f31;
+    height: 50px;
+    font-size: 25px;
+    background-color: #2d353f;
+}
+
+section {
+
+    display: flex;
+    height: 35px;
+    background-color: #272727;
+    align-items: center;
+    justify-content:flex-end ;
+    top: 0;
+    padding: 10px;
+    
+}
+
+
+nav{
+    display: flex;
+    height: 60px;
+    background-color: #272727;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    position: sticky;
+}
+
+/* .social-icons :hover {
+    color: #606564;
+}
+.social-icons {
+    color:rgba(18, 149, 167, 0.741);
+    transition: color 0.2s ;
+}
+.social-icons {
+    color:rgba(12, 50, 240, 0.741);
+    transition: color 0.2s ;
+}
+.social-icons {
+    color:rgba(141, 7, 130, 0.741);
+    transition: color 0.2s ;
+} */
+
+
+
+footer{
+    background-color: #272727;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
